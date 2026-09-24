@@ -1,42 +1,46 @@
 # RepairProbe
 
-RepairProbe is currently an independent open-source project initiated by Raik Müller.
+**RepairProbe ist derzeit ein unabhängiges Open-Source-Projekt von Raik Müller.**
 
-Raik's professional background is in the technical/CNC field. His long-standing practical interests include repair, electronics and soldering; current work also explores microcontrollers, self-hosted systems, software and automation.
+Raiks beruflicher Hintergrund liegt im technischen/CNC-Bereich. Reparatur, Elektronik und Löten interessieren ihn schon lange; hinzu kommen Mikrocontroller, selbst betriebene Systeme, Software und Automatisierung.
 
-## What is RepairProbe?
+## Was ist RepairProbe?
 
-RepairProbe explores whether repair diagnosis can become more accessible by connecting:
+RepairProbe untersucht, ob sich Reparaturdiagnose zugänglicher und nachvollziehbarer machen lässt, indem folgende Dinge zusammengeführt werden:
 
-- observations from a real device;
-- measurements made with tools that are actually available;
-- technical sources and prior repair knowledge; and
-- AI-assisted interpretation that remains explicit about uncertainty.
+- Beobachtungen am realen Gerät;
+- echte Messwerte aus vorhandenen Werkzeugen;
+- technische Quellen und dokumentiertes Reparaturwissen;
+- KI-gestützte Einordnung, die Unsicherheit sichtbar lässt.
 
-This is a product and validation question, not a proven claim. AI is a tool and an accessible knowledge source. It does not replace measurements, safety rules, deterministic checks or the human repair decision.
+Das ist eine **Produkt- und Validierungshypothese**, keine bereits bewiesene Wirkung.
 
-The project prefers simple solutions to real problems, local-first use, open interfaces and evidence that stays distinguishable:
+KI dient als Werkzeug und Wissenszugang. Sie ersetzt weder reale Messungen noch Sicherheitsregeln, deterministische Prüfungen oder die Entscheidung der reparierenden Person.
+
+RepairProbe bevorzugt einfache Lösungen für reale Probleme, lokale Nutzbarkeit, offene Schnittstellen und eine klare Trennung der Evidenz:
 
 `OBSERVED` · `MEASURED` · `RETRIEVED` · `INFERRED` · `CONFIRMED`
 
-## Status
+## Aktueller Stand
 
-The private core repository contains a small software-only baseline: structured measurement events, fail-closed validation, a mock adapter, an append-only evidence store, deterministic fixture replay and a passive-first safety baseline. These prove software integrity only; they do not prove repair success, image understanding or AI quality.
+Im privaten Kernrepository existiert eine kleine softwarebasierte Ausgangsbasis mit strukturierten Messereignissen, fail-closed Validierung, Mock-Adapter, append-only Evidence Store, deterministischem Fixture-Replay und einer passiven Safety-Basis.
 
-## Explore
+Das belegt ausschließlich Softwareintegrität. Es belegt **nicht** Reparaturerfolg, Bildverständnis oder KI-Qualität.
 
-- [Public website](https://repairprobe.github.io/)
-- [Public roadmap](https://github.com/orgs/RepairProbe/projects)
-- [Core repository](https://github.com/RepairProbe/repair-probe) — private canonical development repository
+## Öffentlich ansehen
 
-Repair-Café and practitioner feedback is welcome through the public website or GitHub Discussions when enabled. Outreach is exploratory and does not imply partnership, endorsement or adoption.
+- [RepairProbe-Webseite](https://repairprobe.github.io/)
+- [Öffentlicher Fahrplan](https://github.com/orgs/RepairProbe/projects)
+- [Kernrepository](https://github.com/RepairProbe/repair-probe) — privates kanonisches Entwicklungsrepository
 
-## Support
+Feedback aus Repair-Cafés und aus der praktischen Reparatur ist ausdrücklich willkommen. Eine Antwort, Rückfrage oder ein Gespräch wird nicht als Partnerschaft, Zustimmung oder Produktempfehlung gewertet.
 
-Support / Sponsorship — planned. No sponsorship destination is active yet.
+## Unterstützung
 
-## Contact
+**Sponsoring ist in Vorbereitung.** Aktuell wird noch kein aktiver Sponsoring-Weg behauptet oder verlinkt.
 
-For project questions, Repair-Café feedback or other RepairProbe inquiries: [repairprobe@gmail.com](mailto:repairprobe@gmail.com)
+## Kontakt
 
-You can also use the [public website](https://repairprobe.github.io/) or GitHub Discussions.
+Für Projektfragen, Repair-Café-Feedback oder andere Hinweise zu RepairProbe:
+
+**[repairprobe@gmail.com](mailto:repairprobe@gmail.com)**
