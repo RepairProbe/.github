@@ -37,4 +37,6 @@ Support / Sponsorship — planned. No sponsorship destination is active yet.
 
 ## Contact
 
-The public project contact address will be published here and on the website after the dedicated RepairProbe mailbox is created and verified. Until then, use the public website or GitHub Discussions.
+For project questions, Repair-Café feedback or other RepairProbe inquiries: [repairprobe@gmail.com](mailto:repairprobe@gmail.com)
+
+You can also use the [public website](https://repairprobe.github.io/) or GitHub Discussions.
