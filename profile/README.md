@@ -27,10 +27,14 @@ Im privaten Kernrepository existiert eine kleine softwarebasierte Ausgangsbasis 
 
 Das belegt ausschließlich Softwareintegrität. Es belegt **nicht** Reparaturerfolg, Bildverständnis oder KI-Qualität.
 
+Eine Smartphone-App existiert noch nicht; sie ist Teil der Planung. Ein Antrag zum Prototype Fund (Jahrgang 03) ist in Vorbereitung; eingereicht ist er nicht, bewilligt ist nichts. Erste Rückmeldung aus der Praxis liegt vor: ein ausgefüllter Repair-Café-Fragebogen (n=1, explorativ) und ein Gesprächswunsch. Die Planung wurde daraufhin angepasst: Reparaturinformationszugang, Demontage und Ersatzteile rücken neben die Evidenztrennung.
+
 ## Öffentlich ansehen
 
 - [RepairProbe-Webseite](https://repairprobe.github.io/)
-- [Öffentlicher Fahrplan](https://github.com/orgs/RepairProbe/projects)
+- [Evidenzmodell](https://repairprobe.github.io/evidenzmodell.html)
+- [Öffentlicher Fahrplan](https://repairprobe.github.io/roadmap.html)
+- [Technische Basis](https://repairprobe.github.io/technical-baseline.html)
 - [Kernrepository](https://github.com/RepairProbe/repair-probe) — privates kanonisches Entwicklungsrepository
 
 Feedback aus Repair-Cafés und aus der praktischen Reparatur ist ausdrücklich willkommen. Eine Antwort, Rückfrage oder ein Gespräch wird nicht als Partnerschaft, Zustimmung oder Produktempfehlung gewertet.
