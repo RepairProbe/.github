@@ -1,50 +1,40 @@
 # RepairProbe
 
-**RepairProbe ist derzeit ein unabhängiges Open-Source-Projekt von Raik Müller.**
+**Reparaturinformationen verstehen. Geprüftes von Vermutungen unterscheiden.**
 
-Raiks beruflicher Hintergrund liegt im technischen/CNC-Bereich. Reparatur, Elektronik und Löten interessieren ihn schon lange; hinzu kommen Mikrocontroller, selbst betriebene Systeme, Software und Automatisierung.
+RepairProbe soll Menschen beim Reparieren elektronischer Geräte helfen, verstreute Informationen einzuordnen und zu erkennen, was geprüft wurde und was noch Vermutung ist.
 
-## Was ist RepairProbe?
+Wer ein Gerät repariert, sucht oft in Anleitungen, Foren, Datenblättern und Videos. Dazu kommen eigene Beobachtungen und Messwerte. RepairProbe untersucht, wie offene Software diese Informationen nachvollziehbar zusammenführen kann. Ein plausibler KI-Vorschlag soll dabei als Vermutung erkennbar bleiben, bis eine passende Überprüfung ihn bestätigt oder widerlegt.
 
-RepairProbe untersucht, ob sich Reparaturdiagnose zugänglicher und nachvollziehbarer machen lässt, indem folgende Dinge zusammengeführt werden:
+[Projekt kennenlernen →](https://repairprobe.github.io/)
 
-- Beobachtungen am realen Gerät;
-- echte Messwerte aus vorhandenen Werkzeugen;
-- technische Quellen und dokumentiertes Reparaturwissen;
-- KI-gestützte Einordnung, die Unsicherheit sichtbar lässt.
+## Ein Beispiel aus der Planung
 
-Das ist eine **Produkt- und Validierungshypothese**, keine bereits bewiesene Wirkung.
+Ein Radio lässt sich nicht mehr einschalten. Die reparierende Person hält das Gerät, das Problem und sichtbare Beobachtungen mit dem Smartphone fest. RepairProbe soll passende Quellen zuordnen, tatsächliche Messungen von Annahmen trennen und einen begründeten nächsten Prüfschritt erklären.
 
-KI dient als Werkzeug und Wissenszugang. Sie ersetzt weder reale Messungen noch Sicherheitsregeln, deterministische Prüfungen oder die Entscheidung der reparierenden Person.
+**Das ist ein geplantes Nutzungsszenario.** Eine solche Smartphone-Anwendung gibt es heute noch nicht. Die Software soll elektrische Fachkenntnis nicht ersetzen und bei gefährlichen oder unbekannten Energiezuständen weitere Schritte blockieren.
 
-RepairProbe bevorzugt einfache Lösungen für reale Probleme, lokale Nutzbarkeit, offene Schnittstellen und eine klare Trennung der Evidenz:
+## Was vorhanden ist — und was entstehen soll
 
-`OBSERVED` · `MEASURED` · `RETRIEVED` · `INFERRED` · `CONFIRMED`
+**Heute:** Im privaten Produktrepository existiert eine kleine Python-Baseline. Sie prüft strukturierte Messdaten, speichert Ereignisse, spielt vorbereitete Beispieldaten reproduzierbar ab und enthält begrenzte Prüfregeln für bestimmte aktive Messmodi. Das belegt Softwareverhalten; Reparaturerfolg, Bildverständnis und KI-Qualität sind damit nicht nachgewiesen.
 
-## Aktueller Stand
+**Geplant:** Ein frei verfügbarer Prototyp mit einem nachvollziehbaren Reparaturablauf, dokumentierten Quellen, lokaler Falldokumentation und offenem Austauschformat. Der praktische Nutzen soll erst erprobt werden. Ein Förderantrag zum Prototype Fund ist in Vorbereitung und noch nicht eingereicht. Eine Förderung ist nicht bewilligt.
 
-Im privaten Kernrepository existiert eine kleine softwarebasierte Ausgangsbasis mit strukturierten Messereignissen, fail-closed Validierung, Mock-Adapter, append-only Evidence Store, deterministischem Fixture-Replay und einer passiven Safety-Basis.
+**Langfristig möglich:** Mehr unterstützte Geräte und Beiträge aus der Reparatur-Community. Dafür braucht es weitere Entwicklung und belastbare Erfahrungen aus der Nutzung.
 
-Das belegt ausschließlich Softwareintegrität. Es belegt **nicht** Reparaturerfolg, Bildverständnis oder KI-Qualität.
+Die erste standardisierte Repair-Café-Rückmeldung ist explorativ (n=1). Sie betont Informationssuche, Gerätezugang und Ersatzteile. Sie bestätigt nicht, dass Reparaturstände häufig verloren gehen, und ist kein Nachweis der Produktwirkung.
 
-Eine Smartphone-App existiert noch nicht; sie ist Teil der Planung. Ein Antrag zum Prototype Fund (Jahrgang 03) ist in Vorbereitung; eingereicht ist er nicht, bewilligt ist nichts. Erste Rückmeldung aus der Praxis liegt vor: ein ausgefüllter Repair-Café-Fragebogen (n=1, explorativ) und ein Gesprächswunsch. Die Planung wurde daraufhin angepasst: Reparaturinformationszugang, Demontage und Ersatzteile rücken neben die Evidenztrennung.
+## Wer dahintersteht
 
-## Öffentlich ansehen
+RepairProbe ist ein unabhängiges Open-Source-Projekt von **Raik Müller**. Sein praktischer Hintergrund liegt im technischen/CNC-Bereich; hinzu kommen Elektronik, Reparaturen, Software und Automatisierung.
 
-- [RepairProbe-Webseite](https://repairprobe.github.io/)
-- [Evidenzmodell](https://repairprobe.github.io/evidenzmodell.html)
-- [Öffentlicher Fahrplan](https://repairprobe.github.io/roadmap.html)
-- [Technische Basis](https://repairprobe.github.io/technical-baseline.html)
-- [Kernrepository](https://github.com/RepairProbe/repair-probe) — privates kanonisches Entwicklungsrepository
+Die geplante Software soll ohne eigene RepairProbe-Messhardware und ohne verpflichtenden RepairProbe-Cloudserver auskommen. Lokale Nutzbarkeit, offene Schnittstellen und überprüfbare Regeln gehören zum Zielbild. Eine mögliche externe Recherche oder ein gewählter KI-Dienst kann dennoch eine Netzverbindung benötigen.
 
-Feedback aus Repair-Cafés und aus der praktischen Reparatur ist ausdrücklich willkommen. Eine Antwort, Rückfrage oder ein Gespräch wird nicht als Partnerschaft, Zustimmung oder Produktempfehlung gewertet.
+## Mehr erfahren oder Rückmeldung geben
 
-## Unterstützung
+- [Website und geplantes Nutzungsszenario](https://repairprobe.github.io/)
+- [Was ist Beobachtung, Messung oder Vermutung?](https://repairprobe.github.io/evidenzmodell.html)
+- [Projektstand und nächste Entwicklungsschritte](https://repairprobe.github.io/roadmap.html)
+- [Vorhandene technische Basis](https://repairprobe.github.io/technical-baseline.html)
 
-**Sponsoring ist in Vorbereitung.** Aktuell wird noch kein aktiver Sponsoring-Weg behauptet oder verlinkt.
-
-## Kontakt
-
-Für Projektfragen, Repair-Café-Feedback oder andere Hinweise zu RepairProbe:
-
-**[repairprobe@gmail.com](mailto:repairprobe@gmail.com)**
+Erfahrungen aus der Reparaturpraxis und Hinweise aus Repair-Cafés sind willkommen: **[repairprobe@gmail.com](mailto:repairprobe@gmail.com)**. Eine Rückmeldung oder ein Gespräch bedeutet keine Partnerschaft oder Produktempfehlung.
